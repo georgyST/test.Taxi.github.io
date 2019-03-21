@@ -150,13 +150,13 @@ header .navbar {
 }
 
 .home-text span {
-	color: #f20101;
+	color: #f4841a;
 	font-weight: 700;
 }
 
 .overlay {
 	position: absolute;
-	background: rgba(242, 0, 0, .55);
+	background: rgba(237, 115, 1, .5);
 	top: 0;
 	left: 0;
 	right: 0;
@@ -206,9 +206,10 @@ header .navbar {
 }
 
 .single-item {
-	border: 2px solid #f20101;
+	border: 2px solid #222830;
 	margin-top: 50px;
 	transition: all 0.6s;
+	height: 300px;
 }
 
 .single-item i {
@@ -230,7 +231,7 @@ header .navbar {
 .single-item a.btn-red {
 	margin-bottom: 20px;
 	padding: 6px 10px;
-	background-color: #f20101;
+	background-color: #f4841a;
 	border-radius: 0;
 	font-weight: 700;
 	color: #fff;
@@ -272,7 +273,7 @@ header .navbar {
 	width: 0;
 
 	border-right: 12px solid transparent;
-	border-top: 12px solid #f20101;
+	border-top: 12px solid #222830;
 	border-left: 12px solid transparent;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
@@ -282,7 +283,7 @@ header .navbar {
 
 .member-social-icon i {
 	padding: 20px 7px;
-	color: #f20101;
+	color: #222830;
 	font-size: 20px;
 	text-align: center;
 	-webkit-transition: all 0.3s;
@@ -316,7 +317,7 @@ header .navbar {
 
 .single-team:hover p {
 
-	border-bottom: 0 solid #f20101;
+	border-bottom: 0 solid #222830;
 
 }
 
@@ -327,7 +328,7 @@ header .navbar {
 
 .single-team p {
 	font-size: 18px;
-	border-bottom: 7px solid #f20101;
+	border-bottom: 7px solid #222830;
 	overflow: hidden;
 }
 
@@ -348,7 +349,7 @@ header .navbar {
 
 .bar .progress {
 	height: 12px;
-	background-color: #f20101;
+	background-color: #f4841a;
 }
 
 .bar .progress-bar {
@@ -380,7 +381,7 @@ header .navbar {
 
 .btn-trans {
 	width: 180px;
-	border: 1px solid #f20101;
+	border: 1px solid #ecbd8b;
 	height: 50px;
 	line-height: 38px;
 	color: #fff;
@@ -410,7 +411,7 @@ a.btn.btn-trans:hover {
 
 .gl-overlay {
 	position: absolute;
-	background: rgba(242, 0, 0, .6);
+	background: rgba(237, 115, 0, .6);
 	top: 0;
 	left: 0;
 	right: 0;
@@ -468,7 +469,7 @@ a.btn.btn-trans:hover {
 }
 
 .price-top {
-	background-color: #F20101;
+	background-color: #f4841a;
 	padding: 25px 0;
 	transition: all 0.3s;
 }
@@ -499,6 +500,7 @@ h1 sup {
 	color: #000;
 	background-color: #E8E4E4;
 	padding: 30px 0;
+	height: 160px;
 
 }
 
@@ -664,7 +666,7 @@ h1 sup {
 	bottom: 0;
 	right: 0;
 	color: #fff;
-	background: rgba(220, 1, 1, .5);
+	background: rgba(237, 115, 0, .5);
 	justify-content: center;
 	flex-direction: column;
 	display: flex;
@@ -707,7 +709,7 @@ label {
 	line-height: 40px;
 	width: 250px;
 	border-radius: 0;
-	background: #EB0000;
+	background: #f4841a;
 	font-size: 16px;
 }
 
@@ -718,7 +720,7 @@ label {
 /******* footer css********/
 footer {
 	padding: 25px 0 20px;
-	background-color: #EB0000;
+	background-color: #f4841a;
 	color: #FFF;
 }
 
